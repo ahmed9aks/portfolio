@@ -433,6 +433,8 @@ p{
 @media screen and (max-width: 860px){
     .skills{
         flex-direction: column;
+        background-size: contain;
+        background-attachment: fixed;
     }
     .skill{
         flex-direction: column;
