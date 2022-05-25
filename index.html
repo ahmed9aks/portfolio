@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+        <!-------Navbar Section------->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#home" id="navbar-logo">MY PORTFOLIO!!</a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-links page" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-links page" id="#about">About Me</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#skills" class="navbar-links page" id="#skills">Skill Set</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#projects" class="navbar-links page" id="#projects">Projects</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-links page" id="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    <!------Hero Section------>
+        <div class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-img">
+                    <img src="./images/portfolio-min.jpg" alt="">
+                </div>
+                
+               <h1 class="hero-heading">Welcome to my portfolio</h1>
+               <p class="hero-description">My name is Ahmed Shwaikh and I'm a web developer. I specialize in front end development</p>
+            <button class="main-btn"><a href="#projects">Explore my work</a></button>
+           </div>
+        </div>
+    
+    <!----About Me------>
+       <div class="about" id="about">
+        <div class="about-container">
+             <div class="about-img">
+                 <img src="./images/mountain-min.jpg" alt="">
+             </div>
+             <div class="about-content">
+                 <h1 class="header">Greetings visitors!!!</h1>
+                     <p>As stated above I'm Ahmed. I started a coding bootcamp last year. I didn't know that I have a passion for web development, 
+                         before I started at the bootcamp at Mohawk college. I did both front end and back end development. 
+                         However, I do find myself a lot more passionate about front end. 
+                         I'm  a visual learner and seeing visual feedback, is like instant gratification for my efforts. I kept teaching myself outside the bootcamp. 
+                         The more I learned the more facinated I got. I will keep on evolving and learning. Future goals, are to keep on learning.
+
+                     </p>
+             </div>
+        </div>
+        
+     </div>
+   
+    <!----------Skills----------->
+        <div class="skills" id="skills">
+            <div class="skill">
+                <img src="./images/htj-min.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="./images/bootstraplogo-min.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="./images/jquery-min.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="./images/phplogo-min.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="./images/mysqllogo-min.png" alt="">
+            </div>
+        </div>
+
+ 
+
+    <!-----Projects---->
+    <div class="projects" id="projects">
+        <div class="card">
+            <div class="card-image pro-1"></div>
+            <h2>Pizza Restaurant</h2>
+            <p>This is a pizza restaurant web page. It contain multiple pages. It has a login and sign up page as well. 
+                This is purely front end project</p>
+            <a href="https://ahmed9aks.github.io/pizza/" target="_blank">View Project</a>
+        </div>
+        <div class="card">
+            <div class="card-image pro-2"></div>
+            <h2>Cafe Place</h2>
+            <p>This is a cafe place web page. It contain multiple pages. It has a login and sign up page as well. I'm a fan of coffee shops and cafes.
+            </p>
+            <a href="https://ahmed9aks.github.io/cafe/" target="_blank">View Project</a>
+        </div>
+        <div class="card">
+            <div class="card-image pro-3"></div>
+            <h2>Bike Shop</h2>
+            <p>Cycling is one of my favourite outdoors activities. I couldn't pass on the opportunity of making a design for a bicycle store. 
+        
+            </p>
+            <a href="https://ahmed9aks.github.io/bike-store/" target="_blank">View Project</a>
+        </div>
+    </div>
+
+     <!--------Fixed background image------>
+     <div class="bottom">
+        <div class="inner"></div>
+    </div>
+    <!----Footer----->
+        <footer>
+            <div class="container">
+                <div class="btn-logo">
+                    <a  href="#home" id="navbar-logo">My Portfolio</a>
+                </div>
+                
+              <div class="footer-menu">
+                
+                 <p><a href="#home">Home</a></p>
+                 <p><a href="#about">About Me</a></p>
+                 <p><a href="#skills">Skill Set</a></p>
+                 <p><a href="#projects">Projects</a></p>
+                
+              </div>
+              <p class="website_rights">&#169; My Portfolio 2022. All rights reserved</p>
+              <nav class="social-links" id="contact">
+                <a class="social-icon" href="https://www.facebook.com/ahmed.shwaikh.9" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="social-icon" href="https://www.linkedin.com/in/ahmed-shwaikh-23071620/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="social-icon" href="https://github.com/ahmed9aks" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </nav>
+            </div>
+          </footer>
+          
+          <script src="main.js"></script>
+</body>
+</html>
