@@ -262,14 +262,6 @@ p{
     font-style: italic;
 }
 
-.bottom{
-    background-image: url("./images/bottom-min.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-}
-.inner{
-    padding: 10%;
-}
 .about{
     background-color: whitesmoke;
     padding: 10rem 0;
@@ -364,7 +356,7 @@ p{
 .skills{
     display: flex;
     justify-content: center;
-    background-image: url("./images/top-min.jpg");
+    background: linear-gradient(to right, #4AC29A, #d4fcf4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-attachment: fixed;
     background-size: cover;
 }
