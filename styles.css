@@ -1,14 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 html, body{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     width: 100%;
@@ -19,7 +19,7 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     /*color: whitesmoke;*/
 }
@@ -374,7 +374,7 @@ p{
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(270px, 3fr) );
+    grid-template-columns: repeat( auto-fit, minmax(325px, 3fr) );
     align-items: center;
     justify-content: center;
     margin: 15px auto;
@@ -387,7 +387,8 @@ p{
     margin: 10px;
     background-color: lightgray;
     border-radius: 25px;
-    height: 600px;
+    height: 650px;
+    width: 300px;
 }
 .card-image{
     background-size: cover;
@@ -407,6 +408,26 @@ p{
     background-image: url("./images/bike-min.jpg");
     overflow: hidden;
 }
+.pro-4{
+    background-image: url("./images/qrcode-min.jpg");
+    overflow: hidden;
+}
+.pro-5{
+    background-image: url("./images/quotes-min.jpg");
+    overflow: hidden;
+}
+.pro-6{
+    background-image: url("./images/aime-min.jpg");
+    overflow: hidden;
+}
+.pro-7{
+    background-image: url("./images/calculator-min.jpg");
+    overflow: hidden;
+}
+.pro-8{
+    background-image: url("./images/mortgage-min.jpg");
+    overflow: hidden;
+}
 .card h2, .card p{
     padding: 10px;
 }
@@ -420,7 +441,9 @@ p{
     padding: 15px 20px;
     margin: 20px 50px;
     border-radius: 25px;
-
+}
+.card-btn{
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 860px){
     .skills{
